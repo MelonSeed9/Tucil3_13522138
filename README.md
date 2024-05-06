@@ -1,5 +1,4 @@
-# Project Name
-> Word Ladder Solver in Java
+# Word Ladder Solver in Java
 
 ## Table of Contents
 * [General Info](#general-information)
