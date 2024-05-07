@@ -42,6 +42,12 @@ public class Node {
     }
 
     public int Astarcost(String startWord, String endword){
-        return diffCount(startWord)+sameCount(endword);
+        int count =0;
+        for (int i = startWord.length(); i < endword.length();){
+            if (startWord.charAt(i) != endword.charAt(i)){
+                count++;
+            }
+        }
+        return count-diffCount(startWord)+sameCount(endword);
     }
 }
